@@ -1,0 +1,485 @@
+body {
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+
+
+ul {
+   padding: 0px!important; 
+}
+.menu-principal {
+width: 100%;
+background-color: #252323;
+height: 100px;
+}
+main, .content {
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+.logo {
+ float: left;
+ padding: 16px;
+ width: 70%;
+}
+.redes-sociais ul li {
+margin-left: 25px;
+display: inline-block;
+float: left;
+list-style: none;
+}
+.redes-sociais {
+width: 25%;
+float: right;
+}
+.header-2 {
+background-color: #ffffff;
+width: 980px;
+margin: 0 auto;
+padding: 9px;
+align-items: center;
+align-content: center;
+}
+.menu-urls {
+height: 80px;
+border-bottom: 3px solid #efefef;
+}
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+    
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu {
+width: 70%;
+float: left;
+}
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+.busca input {
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/anterior.png);
+    top: 35%;
+    left: 14%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/proximo.png);
+    top: 35%;
+    right: 14%;
+}
+.slick-list {
+    width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 600px;
+}
+
+li.slick-active button {
+    background: #00bac6;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque strong {
+    color: #646464;
+}
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+.texto-destaque h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+.texto-destaque h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+    text-align: center;
+}
+
+.col-3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal!important;
+}
+
+
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+} 
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.col-4 img {
+cursor: pointer;
+ margin: 0 auto;
+ padding-top: 1em;
+ vertical-align: middle;
+}
+.col-4 img:hover {
+    margin-top: 10px!important;
+    position: relative!important;
+}
+
+.bloco-logos {
+    height: 170px;
+}
+
+.bloco-logos img {
+    margin-top: 50px;
+}
+
+.footer h3 {
+    text-align: left;
+}
+
+.footer {
+    background-image: url('../img/footer.png');
+    color: #ffffff;
+}
+
+.footer-2 {
+    background-image: url('../img/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+}
+
+
+.footer p {
+    width: 90%;
+    text-align: left;
+}
+
+.footer-2 p {
+    padding: 10px;
+}
+
+.clock {
+    color: #898989!important;
+}
+
+.clock:before {
+    content: '';
+    width:  15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/clock.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before, .emailico:before, .telefoneico:before {
+    content: '';
+    width:  17px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+.local:before {
+    background-image: url('../img/local.png');
+}  
+.emailico:before {
+    background-image: url('../img/emailico.png');
+}  
+.telefoneico:before {
+    background-image: url('../img/telefoneico.png');
+}  
+
+
+/*---------------------------------------------------------------------------------*/
+
+  form {
+  /* Centralizar o formulário na pagina */
+  margin:  auto;
+  width: 400px;
+  /* Ver o esboço do formulário */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+    /* cor do texto */
+    color: #646464;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  /* 
+Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
+     Por padrão, as áreas de texto possuem a mesma fonte */
+  font: 1em sans-serif;
+
+  /* Para dar o mesmo tamanho a todos os campos de texto*/
+  width: 300px;
+  box-sizing: border-box;
+  
+  /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Para dar um pouco de destaque aos elementos ativos*/
+  border-color: #999;
+}
+
+textarea {
+  /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+  vertical-align: top;
+
+  /* Para dar espaço suficiente para digitar algum texto */
+  height: 5em;
+}
+
+.button {
+  /* Para posicionar os botões na mesma posição dos campos de texto */
+  padding-left: 90px; /* mesmo tamanho que os elementos do rótulo */
+}
+
+button {
+  /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
+     entre os rótulos e seus campos de texto*/
+  margin-left: .5em;
+}
+
+
+
+
+#p1{
+    color: red;
+    font-size: 2ch;
+}
+
+
+#tituloStyle{
+    color: blue;
+    font-size: 4ch; 
+    list-style-type: none;
+ }
+
+ #textoloStyle{
+    font-size: 2.5ch; 
+    list-style-type: none;
+ }
+
+ #etpstyle2{
+    color:red;
+    font-size: 3ch; 
+    list-style-type: none;
+ }
+
+#etpstyle{
+   color: blue;
+   font-size: 3ch; 
+   list-style-type: none;
+}
+
+
+
+.content ul {
+    list-style-type: none;
+}
+
+#envModel{
+    font-size: 3ch; 
+    list-style-type: none;
+ }
+
+#etp1{
+     width: 70%;
+ }
+ #etp2{
+    width: 70%;
+}
+#etp3{
+    width: 70%;
+}
+#etp4{
+    width: 70%;
+}
+#etp5{
+    width: 70%;
+}
+#etp6{
+    width: 70%;
+}
+#etp7{
+    width: 70%;
+}
+#etp8{
+    width: 70%;
+}
+#etp9{
+    width: 70%;
+}
+
+#env1{
+    font-size: 3ch; 
+    list-style-type: none;
+}
+
+#env2{
+    font-size: 3ch; 
+    list-style-type: none;
+}
+#env3{
+    font-size: 3ch; 
+    list-style-type: none;
+}
+#env4{
+    font-size: 3ch; 
+    list-style-type: none;
+}
+#env5{
+    font-size: 3ch; 
+    list-style-type: none;
+}
+#env6{
+    font-size: 3ch; 
+    list-style-type: none;
+}
+#env7{
+    font-size: 3ch; 
+    list-style-type: none;   
+}
+#env8{
+    font-size: 3ch; 
+    list-style-type: none;
+}
+#env9{
+    font-size: 3ch; 
+    list-style-type: none;
+}
+

@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <title>EASY CANVAS - SOBRE</title>
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="./img/logo-univesp.png" />
+                </div>
+                <div class="redes-sociais">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/univespoficial" target="_blanck">
+                                <img src="./img/face.png" id="home"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/univespoficial" target="_blanck">
+                                <img src="./img/tw.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/univesp" target="_blanck">
+                                <img src="./img/linkedin.png"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./criar.html">Crie seu CANVAS</a>
+                    </li>
+                    <li>
+                        <a href="./sobre.html">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <div class="col-100">
+        <div class="content texto-destaque">
+            <h1><strong>EASY CANVAS</strong></h1>
+            <p>Este é um projeto desenvolvido peloas alunos da Faculdade de Engenharia da Computção 
+                da Universidade Virtual do Estado de São Paulo - UNIVESP.                
+            </p>
+            <p>Grupo 4N58 - Turma 2018/2</p>
+            <h2>Deixe sua <strong>opinião</strong> !</h2>
+            <p> Sua opinião é importante, pode enviar dúvidas, sugestões e críticas, 
+                caso seja necessário entraremos em contato ! 
+            </p>
+        
+            <form action="/formulario-contato" method="post">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="texto" id="nome" name="nome_usuario">
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email_usuario">
+                </div>
+                <div>
+                    <label for="texto">Texto:</label>
+                    <textarea id="texto" name="texto_usuario"></textarea>
+                </div>
+            </form>
+            </div>
+        </div>
+            <div>        
+            <button id="envSobre"><strong>Enviar</strong></button>
+            <script>
+                var nome_usuario = document.getElementById('nome')
+                var email_usuario = document.getElementById('email')
+                var texto_usuario = document.getElementById('texto')
+                var envSobre = document.getElementById('envSobre') 
+
+                envSobre.addEventListener("click", function(){
+                alert("Obrigado !")
+                nome_usuario.value = "";
+                email_usuario.value = ""
+                texto_usuario.value = "";
+
+                });    
+            </script>
+            <style>
+                #envSobre{
+                    margin-bottom: 2%;
+                    margin-top: 2%;
+                    margin-left: 50%;
+                    font-size: large;
+                    color:blue;
+                }
+            </style>
+        </div>
+    </div>
+
+    <div class="col-100 bloco-logos">
+
+    <footer>
+
+    </footer>
+    <div class="col-100 footer-2">
+        <div class="content">
+
+            <p>
+                Projeto Integrador - Univesp - Grupo - Grupo 4N58 - 2021
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/jquery-migrate.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>
